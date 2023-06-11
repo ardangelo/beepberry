@@ -1,0 +1,2 @@
+omj-m += sharp.o
+

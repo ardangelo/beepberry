@@ -1,0 +1,6 @@
+config BR2_PACKAGE_SHARP_DRM
+        bool "sharp_drm"
+        depends on BR2_LINUX_KERNEL
+        depends on BR2_PACKAGE_LIBDRM
+        help
+                DRM driver for Sharp Memory LCD
